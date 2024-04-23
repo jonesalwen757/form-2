@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>
+html basic
+</title>
+</head>
+<body>
+<h3 align="center">FORM AND CONTROLS</h3>
+<form action="mailto:jonesalwen@gmail.com"method = "post">
+<p align="center">STUDENT NAME:
+<input type=text name=name size=30 maxlength=25 ></p>
+<p align="center">GENDER:
+<input type=radio name=gender value=boy>Boy
+<input type=radio name=gender value=girl>Girl
+
+</p>
+<p align="center"> SUBJECTS:
+
+<input type=checkbox name=sub value=Eng>ENGLISH
+<input type=checkbox name=sub value=Tam>TAMIL
+<input type=checkbox name=sub value=Phy>PHYSICS
+<input type=checkbox name=sub value=Che>CHEMISTRY
+<input type=checkbox name=sub value=Art>ART
+<input type=checkbox name=sub value=GP>GP
+<input type=checkbox name=sub value=Com>COMPUTER
+<input type=checkbox name=sub value=Mat>MATHS
+</p>
+<input type=reset name=reset value="Clear">
+<input type=submit name=submit value="Submit">
+
+</body>
+
+</html>
